@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Hisham — Generative AI Engineer | Multi-Agent Systems & RAG</title>
+  <meta name="description"
+    content="Ahmed Hisham is a Generative AI Engineer specializing in Agentic AI, LangGraph multi-agent systems, and advanced RAG pipelines. Building intelligent systems that think, verify, and execute autonomously." />
+  <meta name="keywords" content="Generative AI, Multi-Agent Systems, LangGraph, RAG, LLM, AI Engineer, Upwork" />
+  <meta name="author" content="Ahmed Hisham Gaballah" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ahmed Hisham — Generative AI Engineer" />
+  <meta property="og:description"
+    content="Building intelligent multi-agent systems that think, verify, and execute autonomously." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        <div class="nav-logo-wrapper">
+          <img src="assets/profile/photo_2026-06-12_00-47-48.jpg?v=1" alt="Ahmed Hisham" class="nav-logo-img">
+        </div>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#tech-stack">Tech Stack</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.upwork.com/freelancers/~01b607fdcd40187f88" target="_blank" rel="noopener"
+          class="btn btn-primary btn-small nav-cta">Hire Me</a>
+      </div>
+      <div class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Available for Freelance Projects
+        </div>
+        <h1>
+          Ahmed Hisham<br />
+          <span class="gradient-text">Generative AI Engineer</span>
+        </h1>
+        <p class="hero-tagline">
+          I build intelligent multi-agent systems that <strong>think</strong>, <strong>verify their own
+            answers</strong>, and <strong>execute autonomously</strong>. Specializing in LangGraph orchestration,
+          advanced RAG pipelines, and anti-hallucination architectures.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>⚡</span> View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>💬</span> Let's Talk
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-value">8+</div>
+            <div class="hero-stat-label">AI Agents Built</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">5+</div>
+            <div class="hero-stat-label">Shipped Projects</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">0%</div>
+            <div class="hero-stat-label">Hallucination Rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <span class="section-label">About Me</span>
+          <h2>I Make AI Systems<br /><span class="gradient-text">Immune to Hallucinations</span></h2>
+          <p>
+            I'm a Generative AI Engineer specializing in Agentic AI, Advanced RAG Pipelines, and multi-agent
+            architectures. I design state-graph workflows where specialized AI agents collaborate, use custom tools, and
+            rely on human-in-the-loop checkpoints for safe execution.
+          </p>
+          <p>
+            My primary focus is <strong>reliability</strong>. Every system I build includes verification layers — Judge
+            agents that actively fact-check responses against your private context before anyone sees them, ensuring
+            100% grounded answers.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">🤖</div>
+              <h4>Multi-Agent Systems</h4>
+              <p>State-graph architectures with specialized sub-agents</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🛡️</div>
+              <h4>Anti-Hallucination</h4>
+              <p>Judge/evaluator loops that verify every claim</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🔍</div>
+              <h4>Hybrid Search RAG</h4>
+              <p>BM25 + semantic + RRF + reranking pipelines</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🔗</div>
+              <h4>System Integration</h4>
+              <p>SQL, APIs, MQTT, MCP tool protocols</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal reveal-delay-2" style="display: none;">
+          <!-- INTRO VIDEO: Replace the placeholder below with your recorded intro video -->
+          <!-- Option 1: Google Drive embed -->
+          <!-- <iframe src="https://drive.google.com/file/d/YOUR_VIDEO_ID/preview" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+          <!-- Option 2: YouTube embed -->
+          <!-- <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+          <div class="about-video-container">
+            <div class="about-video-placeholder" id="introVideoPlaceholder">
+              <div class="play-circle">▶</div>
+              <h4>Introduction Video</h4>
+              <p>Coming soon — watch me explain how I build reliable AI systems</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">
+          Production-grade AI systems with multi-agent orchestration, physics simulation, and anti-hallucination
+          architectures.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: MAESTRO (Featured) -->
+        <div class="project-card featured reveal">
+          <div class="project-visual">
+            <img src="assets/maestro/maestro-factory.jpg" alt="MAESTRO — Factory I/O digital twin environment" loading="lazy" />
+            <div class="project-visual-overlay"></div>
+            <span class="badge badge-featured featured-badge">★ Featured — Graduation Project</span>
+            <span class="badge badge-amber project-type-badge">Industrial AI</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">MAESTRO — Smart Industrial AI Assistant</h3>
+            <p class="project-subtitle">Multi-Agent Engine for Smart PLC Troubleshooting & Repair Operations</p>
+            <p class="project-description">
+              Designed an autonomous 8-agent AI pipeline that monitors real-time factory telemetry, diagnoses hardware
+              faults via RAG, proposes safe repairs validated by physics simulation, and executes fixes through
+              MQTT/Modbus — all with human-in-the-loop approval.
+            </p>
+            <div class="project-features">
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>8 specialized agents</strong> orchestrated by LangGraph with deterministic routing (no
+                  supervisor LLM)</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Physics-based simulation</strong> — thermal ODE models, belt dynamics, production
+                  throughput prediction</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>17-table SQLite audit trail</strong> — every agent decision logged with MCP tools</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Real-time MQTT/Modbus</strong> communication with Factory I/O digital twin</span>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge">LangGraph</span>
+              <span class="badge badge-cyan">Gemini 2.5 Pro</span>
+              <span class="badge badge-violet">ChromaDB RAG</span>
+              <span class="badge badge-emerald">MQTT</span>
+              <span class="badge">Modbus TCP</span>
+              <span class="badge badge-cyan">SciPy</span>
+              <span class="badge badge-violet">SQLAlchemy</span>
+              <span class="badge badge-emerald">Factory I/O</span>
+              <span class="badge">Pydantic</span>
+              <span class="badge badge-cyan">MCP</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AhmedGaballah28/Smart-PLC-Assistant.git" target="_blank" rel="noopener"
+                class="project-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg> GitHub
+              </a>
+            </div>
+            <div class="project-demo" style="margin-top: 1.5rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleGallery('maestro-gallery')">▶ View Screenshots</button>
+              <div class="gallery-container" id="maestro-gallery">
+                <div class="gallery-grid">
+                  <img src="assets/maestro/maestro-dashboard.jpg" alt="Dashboard" onclick="openLightbox(this)">
+                  <img src="assets/maestro/maestro-factory.jpg" alt="Factory" onclick="openLightbox(this)">
+                  <img src="assets/maestro/maestro-graph.png" alt="Graph" onclick="openLightbox(this)">
+                  <img src="assets/maestro/MAESTRO run.png" alt="Run 1" onclick="openLightbox(this)">
+                  <img src="assets/maestro/MAESTRO run2.png" alt="Run 2" onclick="openLightbox(this)">
+                  <img src="assets/maestro/MAESTRO run3.png" alt="Run 3" onclick="openLightbox(this)">
+                </div>
+              </div>
+            </div>
+            <div class="project-demo" style="margin-top: 1rem;">
+              <button class="btn btn-secondary btn-small" onclick="openDiagramModal('architecture-diagram')">▶ View Architecture</button>
+              <button class="btn btn-secondary btn-small" onclick="openDiagramModal('schema-diagram')" style="margin-left: 10px;">▶ View Database Schema</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: GCC Construction Navigator -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-visual">
+            <img src="assets/gcc/image.png" alt="GCC screenshot 1" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-visual-overlay"></div>
+            <span class="badge badge-featured featured-badge">★ Client Delivery</span>
+            <span class="badge badge-emerald project-type-badge">Research AI</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">GCC Construction Navigator</h3>
+            <p class="project-subtitle">Anti-Hallucination Research Chatbot with Hybrid Search</p>
+            <p class="project-description">
+              Built an end-to-end research platform ingesting 100+ deep-technical PDFs and 3,034 construction factors.
+              Implemented a hybrid search engine and a LangGraph "Judge Agent" quality gate to completely eliminate LLM
+              hallucinations.
+            </p>
+            <div class="project-features">
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>4-stage hybrid search</strong> — BM25 + ChromaDB + RRF fusion + FlashRank reranking</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Judge quality gate</strong> with 8 hard-fail rules (HF1-HF8) for anti-hallucination</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>PDF ingestion pipeline</strong> with Tesseract OCR for scanned documents</span>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge">LangGraph</span>
+              <span class="badge badge-cyan">Gemini 3.1 Pro</span>
+              <span class="badge badge-violet">ChromaDB</span>
+              <span class="badge badge-emerald">BM25</span>
+              <span class="badge">FlashRank</span>
+              <span class="badge badge-cyan">SQLite FTS5</span>
+              <span class="badge badge-violet">Streamlit</span>
+            </div>
+            <div class="project-demo" style="margin-top: 1.5rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleGallery('gcc-gallery')">▶ View Screenshots</button>
+              <div class="gallery-container" id="gcc-gallery">
+                <div class="gallery-grid">
+                  <img src="assets/gcc/image.png" alt="Screenshot 1" onclick="openLightbox(this)">
+                  <img src="assets/gcc/image1.png" alt="Screenshot 2" onclick="openLightbox(this)">
+                  <img src="assets/gcc/image2.png" alt="Screenshot 3" onclick="openLightbox(this)">
+                  <img src="assets/gcc/image3.png" alt="Screenshot 4" onclick="openLightbox(this)">
+                  <img src="assets/gcc/image4.png" alt="Screenshot 5" onclick="openLightbox(this)">
+                  <img src="assets/gcc/image5.png" alt="Screenshot 6" onclick="openLightbox(this)">
+                  <img src="assets/gcc/Screenshot 2026-06-12 015859.jpg" alt="Screenshot 7" onclick="openLightbox(this)">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: Music Store Multi-Agent -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-visual">
+            <img src="assets/music/music.png" alt="Music Store screenshot" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-visual-overlay"></div>
+            <span class="badge badge-amber project-type-badge">Multi-Agent</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Music Store AI Support</h3>
+            <p class="project-subtitle">Supervisor Agent with Human-in-the-Loop Verification</p>
+            <p class="project-description">
+              Production-grade customer support system with a Supervisor Agent orchestrating specialized sub-agents for
+              catalog search, invoice lookup, and personalized recommendations — featuring human-in-the-loop identity
+              verification.
+            </p>
+            <div class="project-features">
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Supervisor + sub-agent</strong> architecture with tool calling</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Human-in-the-loop</strong> interruption logic for credential verification</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Long-term memory</strong> for personalized recommendations</span>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge">LangChain</span>
+              <span class="badge badge-cyan">LangGraph</span>
+              <span class="badge badge-violet">SQLite</span>
+              <span class="badge badge-emerald">Docker</span>
+              <span class="badge">State Graphs</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AhmedGaballah28/music-store-ai-support" target="_blank" rel="noopener"
+                class="project-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg> GitHub
+              </a>
+              <!--
+              <a href="https://drive.google.com/file/d/19xA0JlWpYMhhKpNJXsi48ghRauVUewKg/view?usp=drive_link"
+                target="_blank" rel="noopener" class="project-link">
+                <span>▶</span> Watch Demo
+              </a>
+              -->
+            </div>
+            <div class="project-demo" style="margin-top: 1.5rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleVideo('music-video')">▶ View Demo Video</button>
+              <div class="gallery-container" id="music-video">
+                <iframe src="https://drive.google.com/file/d/19xA0JlWpYMhhKpNJXsi48ghRauVUewKg/preview"
+                  allow="autoplay; encrypted-media" allowfullscreen loading="lazy" style="width: 100%; height: 350px; border: none; border-radius: 8px;"></iframe>
+              </div>
+            </div>
+            <div class="project-demo" style="margin-top: 1rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleGallery('music-gallery')">▶ View Screenshots</button>
+              <div class="gallery-container" id="music-gallery">
+                <div class="gallery-grid">
+                  <img src="assets/music/music.png" alt="Screenshot 1" onclick="openLightbox(this)">
+                  <img src="assets/music/music1.png" alt="Screenshot 2" onclick="openLightbox(this)">
+                  <img src="assets/music/music2.png" alt="Screenshot 3" onclick="openLightbox(this)">
+                  <img src="assets/music/music3.jpg" alt="Screenshot 4" onclick="openLightbox(this)">
+                  <img src="assets/music/music4.jpg" alt="Screenshot 5" onclick="openLightbox(this)">
+                  <img src="assets/music/music5.png" alt="Screenshot 6" onclick="openLightbox(this)">
+                  <img src="assets/music/music6.png" alt="Screenshot 7" onclick="openLightbox(this)">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4: RAG Chatbot -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-visual">
+            <img src="assets/rag/RAG chatbot.png" alt="RAG Chatbot screenshot" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-visual-overlay"></div>
+            <span class="badge badge-amber project-type-badge">RAG</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Conversational RAG Q&A System</h3>
+            <p class="project-subtitle">Multi-PDF Upload with Chat History & Session Memory</p>
+            <p class="project-description">
+              Context-aware multi-turn Q&A chatbot capable of answering questions over multiple uploaded PDFs
+              simultaneously. Full RAG pipeline with session memory and modular OOP architecture supporting swappable
+              vector store adapters.
+            </p>
+            <div class="project-features">
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Multi-PDF RAG</strong> — simultaneous querying across multiple documents</span>
+              </div>
+              <div class="project-feature">
+                <span class="check-icon">✓</span>
+                <span><strong>Session memory</strong> for history-aware multi-turn dialogue</span>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge">LangChain</span>
+              <span class="badge badge-cyan">ChromaDB</span>
+              <span class="badge badge-violet">HuggingFace</span>
+              <span class="badge badge-emerald">Streamlit</span>
+              <span class="badge">OpenAI API</span>
+            </div>
+            <div class="project-links">
+              <!-- 
+              <a href="https://github.com/AhmedGaballah28/rag-chatbot" target="_blank" rel="noopener"
+                class="project-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg> GitHub
+              </a>
+              -->
+              <!--
+              <a href="https://drive.google.com/file/d/1UzPEdDIXWsgvcQLBSWbdc4am5Uf-uxm-/view?usp=drive_link"
+                target="_blank" rel="noopener" class="project-link">
+                <span>▶</span> Watch Demo
+              </a>
+              -->
+            </div>
+            <div class="project-demo" style="margin-top: 1.5rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleVideo('rag-video')">▶ View Demo Video</button>
+              <div class="gallery-container" id="rag-video">
+                <iframe src="https://drive.google.com/file/d/1UzPEdDIXWsgvcQLBSWbdc4am5Uf-uxm-/preview"
+                  allow="autoplay; encrypted-media" allowfullscreen loading="lazy" style="width: 100%; height: 350px; border: none; border-radius: 8px;"></iframe>
+              </div>
+            </div>
+            <div class="project-demo" style="margin-top: 1rem;">
+              <button class="btn btn-secondary btn-small" onclick="toggleGallery('rag-gallery')">▶ View Screenshots</button>
+              <div class="gallery-container" id="rag-gallery">
+                <div class="gallery-grid">
+                  <img src="assets/rag/RAG chatbot.png" alt="Screenshot 1" onclick="openLightbox(this)">
+                  <img src="assets/rag/RAG chatbot1.png" alt="Screenshot 2" onclick="openLightbox(this)">
+                  <img src="assets/rag/RAG chatbot2.png" alt="Screenshot 3" onclick="openLightbox(this)">
+                  <img src="assets/rag/RAG chatbot3.png" alt="Screenshot 4" onclick="openLightbox(this)">
+                  <img src="assets/rag/RAG chatbot4.png" alt="Screenshot 5" onclick="openLightbox(this)">
+                  <img src="assets/rag/RAG chatbot5.png" alt="Screenshot 6" onclick="openLightbox(this)">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <!-- ===== TECH STACK ===== -->
+  <section id="tech-stack">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Technologies</span>
+        <h2 class="section-title">Tech <span class="gradient-text">Stack</span></h2>
+        <p class="section-subtitle">
+          The tools and frameworks I use to build production-grade AI systems.
+        </p>
+      </div>
+
+      <div class="tech-categories">
+        <div class="tech-category reveal">
+          <div class="tech-category-header">
+            <div class="tech-category-icon indigo">🧠</div>
+            <h3>Agentic AI & LLMs</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge">LangGraph</span>
+            <span class="badge">LangChain</span>
+            <span class="badge badge-cyan">OpenAI API</span>
+            <span class="badge badge-violet">Google Gemini</span>
+            <span class="badge">Hugging Face</span>
+            <span class="badge badge-cyan">LlamaIndex</span>
+            <span class="badge badge-violet">LangSmith</span>
+            <span class="badge">MCP</span>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-delay-1">
+          <div class="tech-category-header">
+            <div class="tech-category-icon cyan">🔍</div>
+            <h3>RAG & Vector Search</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge badge-cyan">ChromaDB</span>
+            <span class="badge badge-cyan">FAISS</span>
+            <span class="badge">Pinecone</span>
+            <span class="badge badge-violet">BM25</span>
+            <span class="badge badge-emerald">FlashRank</span>
+            <span class="badge">RRF Fusion</span>
+            <span class="badge badge-cyan">Embeddings</span>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-delay-2">
+          <div class="tech-category-header">
+            <div class="tech-category-icon violet">⚙️</div>
+            <h3>Backend & Databases</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge badge-violet">Python</span>
+            <span class="badge badge-violet">FastAPI</span>
+            <span class="badge">SQLite</span>
+            <span class="badge badge-cyan">PostgreSQL</span>
+            <span class="badge badge-emerald">SQLAlchemy</span>
+            <span class="badge">REST APIs</span>
+            <span class="badge badge-violet">Pydantic</span>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-delay-3">
+          <div class="tech-category-header">
+            <div class="tech-category-icon emerald">🚀</div>
+            <h3>DevOps & Tools</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge badge-emerald">Docker</span>
+            <span class="badge badge-emerald">Git / GitHub</span>
+            <span class="badge">GitHub Actions</span>
+            <span class="badge badge-cyan">Google Cloud</span>
+            <span class="badge badge-violet">Streamlit</span>
+            <span class="badge">MQTT</span>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-delay-3">
+          <div class="tech-category-header">
+            <div class="tech-category-icon amber">🎙️</div>
+            <h3>Voice & Conversational AI</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge badge-amber">Whisper STT</span>
+            <span class="badge badge-amber">ElevenLabs TTS</span>
+            <span class="badge">Vapi</span>
+            <span class="badge badge-cyan">Twilio</span>
+            <span class="badge badge-violet">Conversational AI</span>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-delay-4">
+          <div class="tech-category-header">
+            <div class="tech-category-icon rose">📐</div>
+            <h3>AI Engineering</h3>
+          </div>
+          <div class="tech-list">
+            <span class="badge">Prompt Engineering</span>
+            <span class="badge badge-cyan">Structured Output</span>
+            <span class="badge badge-violet">ReAct Agents</span>
+            <span class="badge badge-emerald">Tool Calling</span>
+            <span class="badge">State Machines</span>
+            <span class="badge badge-cyan">Guardrails</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2>Let's Build Something<br /><span class="gradient-text">Extraordinary</span></h2>
+        <p class="section-subtitle">
+          Whether you need a rock-solid chatbot for private data, a multi-agent workflow for operations, or a Voice AI
+          receptionist — I can architect and deploy it.
+        </p>
+        <div class="contact-links">
+          <a href="https://www.upwork.com/freelancers/~01b607fdcd40187f88" target="_blank" rel="noopener"
+            class="contact-link primary-link">
+            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
+            </svg> Hire Me on Upwork
+          </a>
+          <a href="mailto:ahmedhishamgaballah02@gmail.com" class="contact-link">
+            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg> Email Me
+          </a>
+          <a href="https://github.com/AhmedGaballah28" target="_blank" rel="noopener" class="contact-link">
+            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/ahmed-hisham-903bb4256/" target="_blank" rel="noopener"
+            class="contact-link">
+            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+            </svg> LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Ahmed Hisham Gaballah. Built with <span class="heart">♥</span> and clean code.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-toolbar">
+      <button class="lightbox-btn" onclick="zoomLightbox(0.2)" title="Zoom In">➕</button>
+      <button class="lightbox-btn" onclick="zoomLightbox(-0.2)" title="Zoom Out">➖</button>
+      <button class="lightbox-btn" onclick="resetZoom()" title="Reset Zoom">🔄</button>
+      <button class="lightbox-btn close" onclick="closeLightbox()" title="Close">&times;</button>
+    </div>
+    <button class="lightbox-nav prev" onclick="changeImage(-1)">&#10094;</button>
+    <div class="lightbox-wrapper" id="lightboxWrapper">
+      <img class="lightbox-content" id="lightboxImg">
+    </div>
+    <button class="lightbox-nav next" onclick="changeImage(1)">&#10095;</button>
+  </div>
+
+  <!-- Diagram Modal -->
+  <div id="diagramModal" class="lightbox">
+    <div class="lightbox-toolbar">
+      <button class="lightbox-btn" onclick="diagramZoom(0.2)" title="Zoom In">➕</button>
+      <button class="lightbox-btn" onclick="diagramZoom(-0.2)" title="Zoom Out">➖</button>
+      <button class="lightbox-btn" onclick="diagramResetView()" title="Reset View">🔄</button>
+      <button class="lightbox-btn close" onclick="closeDiagramModal()" title="Close">&times;</button>
+    </div>
+    <div class="diagram-viewport" id="diagramViewport">
+      <div class="diagram-canvas" id="diagramCanvas">
+        <div id="architecture-diagram" class="diagram-content" style="display: none;">
+          <h2 style="margin-bottom: 20px; color: var(--text-bright); pointer-events: none;">Agent Architecture &amp; Flow</h2>
+          <div id="architecture-diagram-output"></div>
+        </div>
+        <div id="schema-diagram" class="diagram-content" style="display: none;">
+          <h2 style="margin-bottom: 20px; color: var(--text-bright); pointer-events: none;">Database Schema (ERD)</h2>
+          <div id="schema-diagram-output"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mermaid diagram definitions stored as data, NOT rendered on load -->
+  <script type="text/plain" id="architecture-diagram-src">
+graph TD
+    Factory((Factory IO PLC Sensors))
+    SQLite[(SQLite DB State and Audit)]
+    VectorDB[(ChromaDB Knowledge Base)]
+    Reports[(Reports MD and JSON)]
+    Monitor[Monitor Agent]
+    Diagnostic[Diagnostic Agent]
+    Repair[Repair Agent]
+    Validation[Validation Agent]
+    Simulation[Simulation Agent]
+    Human[Human-in-the-Loop]
+    Execution[Execution Agent]
+    Report[Report Agent]
+    InjectFeedback[Inject Feedback]
+    Factory -- "1. Raw Telemetry" --> Monitor
+    Monitor -- "2. Anomaly Alert" --> Diagnostic
+    Diagnostic -- "Query Symptoms" --> VectorDB
+    VectorDB -. "Troubleshooting Context" .-> Diagnostic
+    Repair -- "Query Fixes" --> VectorDB
+    VectorDB -. "Repair Bounds" .-> Repair
+    Validation -- "Query Safe Ranges" --> VectorDB
+    VectorDB -. "Safety Limits" .-> Validation
+    Report -- "Query Specs" --> VectorDB
+    VectorDB -. "Factory Context" .-> Report
+    Diagnostic -- "3. Root Cause Report" --> Repair
+    Repair -- "4. Repair Proposals" --> Validation
+    Validation -- "5a. PASS" --> Simulation
+    Validation -- "5b. FAIL retries left" --> InjectFeedback
+    Validation -- "5c. FAIL max retries" --> Report
+    Simulation -- "6. Prediction" --> Human
+    Human -- "7a. APPROVE" --> Execution
+    Human -- "7b. REJECT retries left" --> InjectFeedback
+    Human -- "7c. REJECT max retries" --> Report
+    Execution -- "8. Execute Commands" --> Factory
+    Execution -- "9. Post-Execution" --> Report
+    InjectFeedback -- "Retry with Feedback" --> Repair
+    Report -- "10. Save Reports" --> Reports
+    Optimizer[Optimization Agent]
+    SQLite -. "Historical Data" .-> Optimizer
+    Optimizer -. "Advisory" .-> Monitor
+    Monitor -. "Logs" .-> SQLite
+    Diagnostic -. "Logs" .-> SQLite
+    Repair -. "Logs" .-> SQLite
+    Validation -. "Logs" .-> SQLite
+    Simulation -. "Logs" .-> SQLite
+    Execution -. "Logs" .-> SQLite
+    classDef agent fill:#0f4c75,stroke:#3282b8,stroke-width:2px,color:#fff
+    classDef factory fill:#b83b5e,stroke:#fff,stroke-width:2px,color:#fff
+    classDef db fill:#f0a500,stroke:#fff,stroke-width:2px,color:#000
+    classDef report fill:#2d6a4f,stroke:#52b788,stroke-width:2px,color:#fff
+    classDef output fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
+    classDef feedback fill:#5c5c5c,stroke:#aaa,stroke-width:1px,color:#fff
+    classDef future fill:#5c5c5c,stroke:#fff,stroke-width:1px,color:#fff
+    class Monitor,Diagnostic,Repair,Validation,Simulation,Human,Execution agent
+    class Factory factory
+    class SQLite,VectorDB db
+    class Report report
+    class Reports output
+    class InjectFeedback feedback
+    class Optimizer future
+  </script>
+
+  <script type="text/plain" id="schema-diagram-src">
+erDiagram
+    INCIDENTS {
+        int id PK
+        string correlation_id
+        string line_id
+        string station_id
+        string status
+        string severity
+        string summary
+        int source_alert_id FK
+        datetime first_seen_at
+        datetime closed_at
+        int version
+    }
+    INCIDENT_EVENTS {
+        int id PK
+        string event_id
+        int incident_id FK
+        string stage
+        string event_type
+        string source_agent
+        string severity
+        json payload_json
+    }
+    MONITOR_ALERTS {
+        int id PK
+        string event_id
+        int incident_id FK
+        string alert_type
+        string severity
+        string message
+        string status
+        json payload_json
+    }
+    DIAGNOSES {
+        int id PK
+        string event_id
+        int incident_id FK
+        string root_cause
+        float confidence
+        string severity
+        json evidence_json
+        string reasoning
+    }
+    REPAIR_PROPOSALS {
+        int id PK
+        string event_id
+        int incident_id FK
+        int proposal_version
+        string summary
+        json payload_json
+    }
+    REPAIR_OPTIONS {
+        int id PK
+        int proposal_id FK
+        int option_rank
+        string name
+        string description
+        json parameters_to_change_json
+        string risk_level
+    }
+    VALIDATION_RESULTS {
+        int id PK
+        string event_id
+        int incident_id FK
+        int proposal_id FK
+        string verdict
+        float risk_score
+        json checks_json
+        boolean hard_rule_passed
+    }
+    SIMULATION_RESULTS {
+        int id PK
+        string event_id
+        int incident_id FK
+        int validation_id FK
+        string go_no_go
+        float confidence
+        float predicted_cycle_time_delta
+        float predicted_throughput_delta
+    }
+    APPROVAL_REQUESTS {
+        int id PK
+        string event_id
+        string request_id
+        int incident_id FK
+        string status
+        int timeout_seconds
+        datetime expires_at
+    }
+    HUMAN_DECISIONS {
+        int id PK
+        string event_id
+        int incident_id FK
+        int approval_request_id FK
+        string decision
+        string operator_id
+        string reason
+    }
+    EXECUTION_RUNS {
+        int id PK
+        string event_id
+        int incident_id FK
+        int decision_id FK
+        string status
+        boolean dry_run
+        string result_summary
+    }
+    COMMAND_AUDIT {
+        int id PK
+        string event_id
+        int execution_run_id FK
+        string topic
+        json command_payload_json
+        string publish_status
+    }
+    OPTIMIZER_RECOMMENDATIONS {
+        int id PK
+        string event_id
+        string recommendation_id
+        int incident_id FK
+        string risk_level
+        string status
+        json recommendation_json
+    }
+    AGENT_HEARTBEATS {
+        int id PK
+        string event_id
+        string agent_name
+        string status
+        json details_json
+    }
+    LINE_HEALTH_SNAPSHOTS {
+        int id PK
+        string event_id
+        string line_id
+        string overall_health
+        int total_produced
+        int active_fault_count
+    }
+    RAG_DOCUMENTS {
+        int id PK
+        string document_id
+        string source_path
+        string title
+        string content_hash
+    }
+    RAG_FEEDBACK {
+        int id PK
+        int incident_id FK
+        int diagnosis_id FK
+        int rag_document_id FK
+        int usefulness_score
+        string notes
+    }
+    INCIDENTS ||--o{ INCIDENT_EVENTS : "tracks"
+    INCIDENTS ||--o| MONITOR_ALERTS : "triggered by"
+    INCIDENTS ||--o{ DIAGNOSES : "analyzed by"
+    INCIDENTS ||--o{ REPAIR_PROPOSALS : "generates"
+    REPAIR_PROPOSALS ||--o{ REPAIR_OPTIONS : "contains"
+    INCIDENTS ||--o{ VALIDATION_RESULTS : "checked by"
+    REPAIR_PROPOSALS ||--o{ VALIDATION_RESULTS : "validated by"
+    INCIDENTS ||--o{ SIMULATION_RESULTS : "tested by"
+    VALIDATION_RESULTS ||--o{ SIMULATION_RESULTS : "simulated by"
+    INCIDENTS ||--o{ APPROVAL_REQUESTS : "prompts"
+    INCIDENTS ||--o{ HUMAN_DECISIONS : "resolved by"
+    APPROVAL_REQUESTS ||--o| HUMAN_DECISIONS : "answered by"
+    INCIDENTS ||--o{ EXECUTION_RUNS : "applied by"
+    HUMAN_DECISIONS ||--o{ EXECUTION_RUNS : "authorizes"
+    EXECUTION_RUNS ||--o{ COMMAND_AUDIT : "sends"
+    INCIDENTS ||--o{ OPTIMIZER_RECOMMENDATIONS : "tuned by"
+    RAG_DOCUMENTS ||--o{ RAG_FEEDBACK : "rated by"
+    INCIDENTS ||--o{ RAG_FEEDBACK : "uses"
+    DIAGNOSES ||--o{ RAG_FEEDBACK : "uses"
+    REPAIR_OPTIONS ||--o{ RAG_FEEDBACK : "uses"
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'dark',
+      themeVariables: {
+        primaryTextColor: '#ffffff',
+        secondaryTextColor: '#ffffff',
+        tertiaryTextColor: '#ffffff',
+        edgeLabelBackground: 'transparent',
+        labelTextColor: '#ffffff',
+        nodeTextColor: '#ffffff'
+      }
+    });
+
+    const diagramCache = {};
+    let dZoom = 1;
+    let dPanX = 0;
+    let dPanY = 0;
+    let dIsDragging = false;
+    let dStartX = 0;
+    let dStartY = 0;
+
+    function applyDiagramTransform() {
+      const canvas = document.getElementById('diagramCanvas');
+      if (canvas) canvas.style.transform = `translate(${dPanX}px, ${dPanY}px) scale(${dZoom})`;
+    }
+
+    function diagramZoom(delta) {
+      dZoom = Math.max(0.2, Math.min(5, dZoom + delta));
+      applyDiagramTransform();
+    }
+
+    function diagramResetView() {
+      dZoom = 1;
+      dPanX = 0;
+      dPanY = 0;
+      applyDiagramTransform();
+    }
+
+    async function openDiagramModal(diagramId) {
+      document.querySelectorAll('.diagram-content').forEach(el => el.style.display = 'none');
+      const container = document.getElementById(diagramId);
+      container.style.display = 'block';
+      document.getElementById('diagramModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+      diagramResetView();
+
+      const outputId = diagramId + '-output';
+      const outputEl = document.getElementById(outputId);
+
+      if (!diagramCache[diagramId]) {
+        const srcEl = document.getElementById(diagramId + '-src');
+        if (srcEl) {
+          try {
+            const { svg } = await mermaid.render('mermaid-' + diagramId, srcEl.textContent.trim());
+            outputEl.innerHTML = svg;
+            diagramCache[diagramId] = true;
+          } catch (err) {
+            outputEl.innerHTML = '<p style="color: #f43f5e;">Failed to render diagram: ' + err.message + '</p>';
+          }
+        }
+      }
+    }
+
+    function closeDiagramModal() {
+      document.getElementById('diagramModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // Mouse wheel zoom
+    document.addEventListener('DOMContentLoaded', () => {
+      const viewport = document.getElementById('diagramViewport');
+      if (viewport) {
+        viewport.addEventListener('wheel', (e) => {
+          if (!document.getElementById('diagramModal').classList.contains('active')) return;
+          e.preventDefault();
+          diagramZoom(e.deltaY < 0 ? 0.1 : -0.1);
+        }, { passive: false });
+
+        viewport.addEventListener('mousedown', (e) => {
+          if (e.target.closest('.lightbox-toolbar')) return;
+          dIsDragging = true;
+          dStartX = e.clientX - dPanX;
+          dStartY = e.clientY - dPanY;
+          viewport.style.cursor = 'grabbing';
+        });
+
+        viewport.addEventListener('mousemove', (e) => {
+          if (!dIsDragging) return;
+          dPanX = e.clientX - dStartX;
+          dPanY = e.clientY - dStartY;
+          applyDiagramTransform();
+        });
+
+        viewport.addEventListener('mouseup', () => {
+          dIsDragging = false;
+          viewport.style.cursor = 'grab';
+        });
+
+        viewport.addEventListener('mouseleave', () => {
+          dIsDragging = false;
+          viewport.style.cursor = 'grab';
+        });
+
+        // Touch support for mobile panning
+        viewport.addEventListener('touchstart', (e) => {
+          if (e.target.closest('.lightbox-toolbar')) return;
+          if (e.touches.length === 1) {
+            dIsDragging = true;
+            dStartX = e.touches[0].clientX - dPanX;
+            dStartY = e.touches[0].clientY - dPanY;
+          }
+        }, { passive: true });
+
+        viewport.addEventListener('touchmove', (e) => {
+          if (!dIsDragging || e.touches.length !== 1) return;
+          e.preventDefault(); // Prevent scrolling the page while panning
+          dPanX = e.touches[0].clientX - dStartX;
+          dPanY = e.touches[0].clientY - dStartY;
+          applyDiagramTransform();
+        }, { passive: false });
+
+        viewport.addEventListener('touchend', () => {
+          dIsDragging = false;
+        });
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
